@@ -2,7 +2,7 @@ import './PolaroidList.css'
 import Polaroid from './Polaroid'
 import Modal from './Modal'
 import { useState, useEffect } from 'react'
-import {pets} from 'src/pets.js'
+import {pets} from '/src/pets.js'
 
 
 function PolaroidList(){
