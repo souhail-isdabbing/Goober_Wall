@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    font-family: "Gloria Hallelujah", cursive;
+}
+.footer{
+    font-family: "Gloria Hallelujah", cursive;
+}
+
+@media (max-width:500px){
+    .header{
+        font-size: 4em;
+    }
+    .footer{
+        font-size: 0.8em;
+    }
+}

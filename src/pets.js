@@ -1,0 +1,11 @@
+export const pets=[{"name": "Cleo", "image": "Goobers/Cleo.jpg"}, 
+    {"name": "Dmitri", "image": "Goobers/Dmitri.jpg"},
+     {"name": "Graham", "image": "Goobers/Graham.jpg"}, 
+     {"name": "Junior", "image": "Goobers/Junior.jpg"}, 
+     {"name": "Katara", "image": "Goobers/Katara.jpg"}, 
+     {"name": "Laney", "image": "Goobers/Laney.jpg"}, 
+     {"name": "Leon", "image": "Goobers/Leon.jpg"}, 
+     {"name": "Octavia", "image": "Goobers/Octavia.jpg"}, 
+     {"name": "Smudge", "image": "Goobers/Smudge.jpg"}, 
+     {"name": "Teddy", "image": "Goobers/Teddy.jpg"}, 
+     {"name": "Trey", "image": "Goobers/Trey.jpg"}]

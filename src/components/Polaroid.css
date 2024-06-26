@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+figure{
+    width: 22em;
+    height: 24em;
+    position: relative;
+    background-color: #e4e4e4;
+    padding: 19px 19px 85px 19px;
+    margin:auto;
+    transition: transform 0.7s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+figure img{
+    width: 18em;
+    height: 18em;
+    
+}
+figcaption{
+    font-family: 'Playwrite US Trad',cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #080808;
+    margin-top: 22px;
+}
+
+
+figure:before{
+    top: 3px;
+    left: -55px;
+    
+}
+figure:after{
+    bottom: 3px;
+    right: -60px;
+}
+figure:hover{
+    transform: scale(1.2,1.2) rotate(4deg);
+    transition: all 0.7s;
+}
+
+@media (max-width:500px){
+    figure{
+        width: 14em;
+        height: 16em;
+    }
+    figure img{
+        width: 10em;
+        height: 10em;
+        
+    }
+
+    figcaption{
+        font-family: 'Playwrite US Trad',cursive;
+        font-size: 1.5em;
+        text-align: center;
+        color: #080808;
+        margin-top: 1em;
+    }
+    
+
+}
