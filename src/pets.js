@@ -8,4 +8,5 @@ export const pets=[{"name": "Cleo", "image": "Goobers/Cleo.jpg"},
      {"name": "Octavia", "image": "Goobers/Octavia.jpg"}, 
      {"name": "Smudge", "image": "Goobers/Smudge.jpg"}, 
      {"name": "Teddy", "image": "Goobers/Teddy.jpg"}, 
-     {"name": "Trey", "image": "Goobers/Trey.jpg"}]
+     {"name": "Trey", "image": "Goobers/Trey.jpg"},
+     {"name": "Mamas", "image": "Goobers/Mamas.jpg"}]
