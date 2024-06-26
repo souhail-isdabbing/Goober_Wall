@@ -7,7 +7,7 @@ function Polaroid({name,image,clicking}){
         <>
 
         <figure className='m-10' onClick={clicking}>
-            <img className='w-full' src={`src/${image}`} ></img>
+            <img className='w-full' src={`./src/${image}`} ></img>
             <figcaption>{name}</figcaption>
         </figure>
       
